@@ -14,14 +14,12 @@ This project provides a complete end-to-end fire detection solution:
 
 ## 🚀 Quick Start
 
-### Option 1: Automated Launch (Recommended)
-
 ```bash
 # Navigate to the project directory
-cd WebApp_IOT/YoloUNO_Farming
+cd WebApp_IOT/Yolo-AI_Detection
 
 # Run the complete system launcher
-python start_fire_detection_system.py
+python start_complete_system.py
 ```
 
 This will automatically:
@@ -32,22 +30,6 @@ This will automatically:
 - ✅ Start CoreIOT integration (optional)
 - ✅ Run system tests
 - ✅ Display access URLs
-
-### Option 2: Manual Launch
-
-```bash
-# Terminal 1: Start AI Server
-cd server
-source ai_server_env/bin/activate  # if using virtual environment
-python ai_server.py
-
-# Terminal 2: Start Dashboard
-cd ..
-python fire_detection_dashboard.py
-
-# Terminal 3: Start CoreIOT Integration (optional)
-python coreiot_integration.py
-```
 
 ## 📊 Access the System
 
